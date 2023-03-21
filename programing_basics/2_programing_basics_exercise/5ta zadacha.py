@@ -1,0 +1,6 @@
+a=int(input())
+b=int(input())
+c=int(input())
+d=int(input())
+sum_all = (a*5.80) + (b*7.20) + (c*1.20)
+print(f"{sum_all-(sum_all*d/100.0)}")
