@@ -11,8 +11,6 @@ for _ in f_car:
     if _ == 0:
         score_f_car *= 0.8
 
-
-
 for _ in s_car:
     score_s_car += _
     if _ == 0:
