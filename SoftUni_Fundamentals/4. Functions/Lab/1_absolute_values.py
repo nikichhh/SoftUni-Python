@@ -1,9 +1,9 @@
-### 1vi metod
+### 1st metod
 numbers = [abs(float(x)) for x in input().split()]
 
 print(numbers)
 
-### 2ri metod
+### 2nd metod
 # def numbers(chisla):
 #     print(chisla)
 #
@@ -11,6 +11,6 @@ print(numbers)
 #
 # numbers(chisla)
 
-### 3ti metod
+### 3rd metod
 # print([abs(float(x)) for x in input().split()])
-#### ima leka greshka
+#### it has a little problem
