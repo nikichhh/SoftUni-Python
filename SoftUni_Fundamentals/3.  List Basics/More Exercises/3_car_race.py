@@ -16,7 +16,6 @@ for _ in s_car:
     if _ == 0:
         score_s_car *= 0.8
 
-
 if score_f_car > score_s_car:
     print(f"The winner is right with total time: {score_s_car:.1f}")
 else:
