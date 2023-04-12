@@ -1,18 +1,18 @@
-import math
+from math import floor
 
 
 def get_distance(_x1, _y1, _x2, _y2):
     return (_x2-_x1)**2 + (_y2-_y1)**2
 
 
-x1 = math.floor(float(input()))
-y1 = math.floor(float(input()))
-x2 = math.floor(float(input()))
-y2 = math.floor(float(input()))
-x3 = math.floor(float(input()))
-y3 = math.floor(float(input()))
-x4 = math.floor(float(input()))
-y4 = math.floor(float(input()))
+x1 = floor(float(input()))
+y1 = floor(float(input()))
+x2 = floor(float(input()))
+y2 = floor(float(input()))
+x3 = floor(float(input()))
+y3 = floor(float(input()))
+x4 = floor(float(input()))
+y4 = floor(float(input()))
 
 dist1 = get_distance(x1, y1, 0, 0)
 dist2 = get_distance(x2, y2, 0, 0)
