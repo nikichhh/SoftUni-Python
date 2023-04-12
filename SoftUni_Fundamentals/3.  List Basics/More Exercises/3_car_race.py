@@ -1,4 +1,3 @@
-# 02. Car Race
 race = [int(i) for i in input().split(' ')]
 finish = len(race) // 2
 f_car = race[0:finish]
